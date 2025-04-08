@@ -7,7 +7,8 @@ from .constants import (OLLAMA_URI, LLM_MODEL, AWS_BEBROCK_MODEL_ID,
                          AWS_BEDROCK_REGION,
                          AWS_BEDROCK_ACCESS_KEY,
                          AWS_BEDROCK_SECRET_ACCESS_KEY)
-from langchain_openai import ChatOpenAI  # Updated import
+from langchain_openai import ChatOpenAI
+from langchain_aws import ChatBedrock
 
 logger = logging.getLogger(__name__)
 
