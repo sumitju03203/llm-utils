@@ -96,12 +96,3 @@ You can dynamically decide which one to use based on environment, user settings,
 - OpenAI usage is billed, so keep your key secure
 - Logs and errors will appear via `logging` if configured
 
----
-
-## 🛠️ Future Ideas
-
-- Add caching layer for repeated queries
-- Extend to support Anthropic, Cohere, or Hugging Face endpoints
-- Add async support for concurrency
-
-Happy hacking 🚀
